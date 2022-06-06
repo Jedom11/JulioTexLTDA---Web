@@ -1,0 +1,7 @@
+/*
+Estilos generales
+*/
+section > div{
+    background-color: aqua;
+    border: 1px solid black;
+}
