@@ -4,20 +4,133 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css">
-    <title>JulioText LTDA</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" href="img/icon.ico">
+
+    <title>JulioTex</title>
+
 </head>
 <body>
-    <main class="container-fluid">
-        <h1>JulioText</h1>
-        <section class="row">
-            <div class="col-lg-4 col-md-6 col-sm-12">Contenedor 1</div>
-            <div class="col-lg-4 col-md-6 col-sm-12">Contenedor 2</div>
-            <div class="col-lg-4 col-md-6 col-sm-12">Contenedor 3</div>
+    <header class="hero">
+        <div class="container">
+            <nav class="nav">
+                <a href="#contacto" class="nav__items nav_items--cta">Contáctanos ahora</a>
+                <a href="#historia" class="nav__items">Sobre nosotros</a>
+                <a href="#catalogo" class="nav__items">Cátalogo</a>
+            </nav>
+
+            <section class="hero__container">
+                <div class="hero__texts">
+                    <h1 class="hero__title">Hola, somos JulioTex</h1>
+                    <h2 class="hero__subtitle">Lema de la empresa</h2>
+                    <a href="#contacto" class="hero__cta">Contáctanos</a>
+                </div>
+                
+            </section>
+        </div>
+        <div class="hero__wave" style="overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C150.00,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+    </header>
+
+    <main>
+        <section class="presentation container"  id="historia">
+            <img src="img/logoEmpresa.jpg" alt="JulioTexLogo" class="presentation__logo">
+            <h2 class="subtitle">Sobre  nosotros</h2>
+            
+            <h3 class="subtitle__minor">Nuestra historia</h3>
+            <p class="presentation__history">Juliotex Ltda. nace en el año 2004 con la idea de aportar valor al engrandecimiento
+                comercial del país, basando su prestación de servicios en la producción y
+                comercialización de prendas de vestir deportivas para todos los géneros y edades.
+                Con el transcurrir de los años y la óptima calidad de las prendas que ofrece,
+                satisfaciendo las necesidades y expectativas de los clientes, se ha logrado
+                posicionar en el mercado, obteniendo el privilegio de proveerle sus productos a
+                grandes almacenes de cadena en el país.
+                <br>
+                <br>
+                El prestigio de Juliotex Ltda. se debe a la dedicación constante de sus empleados
+                para garantizar la calidad de los productos ofrecidos y la mejor atención a sus
+                clientes. En la actualidad y debido a los cambios que han surgido respecto a la
+                disolución de almacenes quienes fungían como clientes para la empresa, se ha
+                generado la necesidad de atender el mercado internacional, el cual le ofrece a la
+                empresa mejores perspectivas en cuanto a volumen de venta y sistemas de pagos.</p>
+
+                <h3 class="subtitle__minor">Nuestra ubicación</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7953.905759307614!2d-74.0675557!3d4.
+                6024616!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99a250147f97%3A0x789bf9a3f0abd495!2zQ2wuIDIwICM0LTQyLCBCb2dvdMOh!5e0!3m2!1ses!2sco!4v1654704813171!5m2!1ses!2sco"
+                 width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"  class="map"></iframe>
+        </section>
+
+        <section class="catalogue container">
+
+            <div class="container">
+                <h2 class="subtitle" id="catalogo">Catálogo</h2>
+                <p class="catalogue__texts">Contamos con 3 diferentes catalogos. Tenemos para los más chiquitos, para los estudiantes y para cada sexo.</p>
+                <br>
+                <br>
+                <div class="catalogue__grid">
+
+                    <article class="catalogue__item">
+                        <img src="img/catalogueBaby.jpg" alt="" class="catalogue__picture">
+                        <div class="catalogue__hover">
+                            <a href="https://onedrive.live.com/view.aspx?resid=463A6B3EE9F0E62E!277&ithint=file%2cpptx&authkey=!AIaqz-2N1lBwOd4" target="_blank"><h2 class="catalogue__title">Catálogo bebés</h2></a>
+                            <a href="https://onedrive.live.com/view.aspx?resid=463A6B3EE9F0E62E!277&ithint=file%2cpptx&authkey=!AIaqz-2N1lBwOd4" target="_blank"><i class="far fa-file-alt catalogue__icon"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="catalogue__item">
+                        <img src="img/catalogueStudent.jpg" alt="" class="catalogue__picture">
+                        <div class="catalogue__hover">
+                            <a href="https://onedrive.live.com/view.aspx?resid=463A6B3EE9F0E62E!279&ithint=file%2cpptx&authkey=!AEE3mVFQwEojIpg" target="_blank"><h2 class="catalogue__title">Catálogo Student</h2></a>
+                            <a href="https://onedrive.live.com/view.aspx?resid=463A6B3EE9F0E62E!279&ithint=file%2cpptx&authkey=!AEE3mVFQwEojIpg" target="_blank"><i class="far fa-file-alt catalogue__icon"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="catalogue__item">
+                        <img src="img/catalogueMansWomans.jpg" alt="" class="catalogue__picture">
+                        <div class="catalogue__hover">
+                            <a href="https://onedrive.live.com/view.aspx?resid=463A6B3EE9F0E62E!278&ithint=file%2cpptx&authkey=!AMyHY3V8lrAuR-A" target="_blank"><h2 class="catalogue__title">Catálogo Hombres y  Mujeres</h2></a>
+                            <a href="https://onedrive.live.com/view.aspx?resid=463A6B3EE9F0E62E!278&ithint=file%2cpptx&authkey=!AMyHY3V8lrAuR-A" target="_blank"><i class="far fa-file-alt catalogue__icon"></i></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="contacts">
+            <div class="container">
+
+            </div>
         </section>
     </main>
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+
+    <footer class="footer" id="contacto">
+        <div class="container footer__grid">
+            <nav class="nav nav--footer">
+                <a href="#" class="nav__items nav__items--footer">Inicio</a>
+                <a href="#historia" class="nav__items nav__items--footer">Sobre nosotros</a>
+                <a href="#catalogo" class="nav__items nav__items--footer">Cátalogo</a>
+            </nav>
+
+            <section class="footer__contact">
+                <h3 class="footer__title" id="contacto">Contáctanos</h3>
+                <div class="footer__icons">
+                    <span class="footer__container-icons">
+                        <a href="#" class="fab fa-facebook footer__icon"></a>
+                    </span>
+
+                    <span class="footer__container-icons">
+                        <a href="#" class="fab fa-instagram footer__icon"></a>                    
+                    </span>
+
+                    <span class="footer__container-icons">
+                        <a href="#" class="fab fa-whatsapp footer__icon"></a>                  
+                    </span>
+                </div>
+            </section>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/e8d7381393.js" crossorigin="anonymous"></script>
 </body>
 </html>
